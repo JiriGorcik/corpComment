@@ -1,9 +1,9 @@
+type ErrorMessageProps = {
+  message: string;
+};
 
+const ErrorMessage = ({ message }: ErrorMessageProps) => {
+  return <div>{message}</div>;
+};
 
-const ErrorMessage = ({message}) => {
-  return (
-    <div>{message}</div>
-  )
-}
-
-export default ErrorMessage
+export default ErrorMessage;
